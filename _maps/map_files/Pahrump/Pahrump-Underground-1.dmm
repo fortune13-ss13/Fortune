@@ -23660,15 +23660,6 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/dark,
 /area/f13/underground/enclave_base)
-"oAw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/nest/raider/ranged{
-	pixel_x = -30;
-	spawn_time = 10
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/underground/enclave_base)
 "oAW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -71745,7 +71736,7 @@ uCO
 ddL
 uQb
 qpg
-oAw
+sIJ
 dwM
 vIC
 rHS
