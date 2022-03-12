@@ -11047,6 +11047,7 @@
 /obj/item/clothing/under/f13/enclave/officer,
 /obj/item/clothing/head/helmet/f13/helmet/enclave/officer,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/suit/armor/f13/enclave/officercoat,
 /turf/open/floor/carpet/black,
 /area/f13/underground/enclave_base)
 "gaI" = (
@@ -24480,11 +24481,6 @@
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/plasteel/freezer,
 /area/f13/bunker)
-"phn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/destructible/tribal_torch/lit,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/f13/underground/enclave_base)
 "phA" = (
 /obj/item/instrument/accordion,
 /obj/structure/rack,
@@ -69402,7 +69398,7 @@ gGZ
 otr
 cSw
 qst
-uiy
+vKj
 ugf
 uiy
 ugf
@@ -70941,7 +70937,7 @@ bTq
 bTq
 gmm
 ycf
-phn
+xsH
 pgv
 xsH
 pgv
