@@ -15980,13 +15980,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/den)
-"joD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/storage/trash_stack{
-	icon_state = "trash_3"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/f13/underground/enclave_base)
 "joN" = (
 /obj/structure/easel,
 /turf/open/floor/carpet,
@@ -71464,7 +71457,7 @@ gxY
 ycf
 rpE
 dUy
-joD
+xsH
 pgv
 oqd
 vKj
