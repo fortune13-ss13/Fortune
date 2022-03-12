@@ -38,7 +38,7 @@
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		/obj/item/grenade/flashbang = 1,
 		/obj/item/pda = 1,
-		/obj/item/ammo_box/magazine/m556/rifle/extended = 2,
+		/obj/item/ammo_box/magazine/m5mm = 2,
 		/obj/item/storage/bag/money/small/wastelander = 1,
 		/obj/item/melee/onehanded/knife/survival = 1
 		)

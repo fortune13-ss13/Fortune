@@ -15825,6 +15825,14 @@
 "gFR" = (
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/wasteland)
+"gGc" = (
+/obj/machinery/door/poddoor{
+	id = "vaultelevator"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/caves)
 "gGp" = (
 /obj/item/storage/trash_stack,
 /turf/open/indestructible/ground/outside/road,
@@ -48284,6 +48292,9 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"uPs" = (
+/turf/closed/wall/r_wall,
+/area/f13/caves)
 "uPv" = (
 /obj/effect/decal/fakelattice,
 /turf/closed/wall/r_wall/rust,
@@ -100363,9 +100374,9 @@ gcK
 gcK
 gcK
 gcK
-gaV
-gaV
-gaV
+uPs
+uPs
+uPs
 ggK
 tVe
 ggK
@@ -100619,11 +100630,11 @@ gcK
 gcK
 gcK
 gcK
-gaV
+uPs
 iAU
 rjE
 rjE
-gaV
+uPs
 dWE
 ggK
 vpD
@@ -100876,11 +100887,11 @@ gcK
 gcK
 gcK
 gcK
-gaV
+uPs
 iAU
 rjE
 rjE
-gaV
+uPs
 ggK
 ggK
 kSa
@@ -101133,11 +101144,11 @@ gcK
 gcK
 gcK
 gcK
-gaV
+uPs
 lCc
 imR
 mRD
-hNC
+gGc
 ggK
 ggK
 ggK
@@ -101391,9 +101402,9 @@ gcK
 gcK
 gcK
 gcK
-gaV
-gaV
-gaV
+uPs
+uPs
+uPs
 gAs
 wnA
 bfN

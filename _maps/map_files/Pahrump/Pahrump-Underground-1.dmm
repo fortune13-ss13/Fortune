@@ -4238,7 +4238,7 @@
 "cwH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/medical,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/enclave_base)
 "cwN" = (
 /obj/structure/bed/mattress{
@@ -9346,6 +9346,12 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/electropack/shockcollar/explosive,
+/obj/item/electropack/shockcollar/explosive,
+/obj/item/electropack/shockcollar/explosive,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
 /turf/open/floor/f13{
 	icon_state = "redmark"
 	},
@@ -13530,9 +13536,6 @@
 	dir = 8;
 	termtag = "Business"
 	},
-/obj/effect/decal/cleanable/cobweb{
-	icon_state = "cobweb2"
-	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/underground/enclave_base)
 "hCA" = (
@@ -14791,8 +14794,12 @@
 /area/f13/caves)
 "iwr" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/armor/tier3,
-/obj/effect/spawner/lootdrop/f13/armor/tier3,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/head/helmet/f13/combat/swat,
+/obj/item/clothing/head/helmet/f13/combat/swat,
+/obj/item/clothing/head/helmet/f13/combat/swat,
 /turf/open/floor/plasteel/dark,
 /area/f13/underground/enclave_base)
 "iwP" = (
@@ -23219,9 +23226,6 @@
 "ojt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/freezer,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/underground/enclave_base)
 "oju" = (
@@ -23402,10 +23406,7 @@
 "oqd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch,
-/obj/structure/decoration/rag,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/enclave_base)
 "oqJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -24160,6 +24161,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/electropack/shockcollar,
+/obj/item/electropack/shockcollar,
+/obj/item/electropack/shockcollar,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
 /turf/open/floor/f13{
 	icon_state = "redmark"
 	},
@@ -24483,7 +24490,6 @@
 "phn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/destructible/tribal_torch/lit,
-/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/underground/enclave_base)
 "phA" = (
@@ -26428,11 +26434,6 @@
 /area/f13/caves)
 "qsI" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/old{
-	icon_state = "gibmid1";
-	pixel_x = 6;
-	pixel_y = 9
-	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/underground/enclave_base)
 "qsM" = (
@@ -29230,7 +29231,6 @@
 "snF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch,
-/obj/structure/decoration/rag,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/underground/enclave_base)
 "snH" = (
@@ -30713,10 +30713,7 @@
 /obj/machinery/door/airlock/public/glass{
 	name = "Diner"
 	},
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/turf/closed/wall/r_wall,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/enclave_base)
 "tBM" = (
 /obj/structure/chair/wood/normal{
@@ -32254,7 +32251,6 @@
 "uCO" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/right,
-/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/underground/enclave_base)
 "uCP" = (
@@ -33531,7 +33527,6 @@
 "vEI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/microwave/stove,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/underground/enclave_base)
 "vFi" = (
