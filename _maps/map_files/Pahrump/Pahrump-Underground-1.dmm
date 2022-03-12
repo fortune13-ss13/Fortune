@@ -927,7 +927,9 @@
 	layer = 2.9
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "aBq" = (
 /obj/structure/sink{
@@ -1083,7 +1085,10 @@
 /area/f13/caves)
 "aEo" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/obj/machinery/light/fo13colored/Red{
+	dir = 8
+	},
+/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/underground/enclave_base)
 "aFb" = (
 /obj/item/soap,
@@ -4165,7 +4170,9 @@
 "cuJ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "cuS" = (
 /obj/structure/closet/fridge,
@@ -4599,7 +4606,9 @@
 	pixel_x = -30
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "cFj" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4817,7 +4826,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/f13/uslt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "cLd" = (
 /obj/structure/disposalpipe/trunk/multiz,
@@ -5270,7 +5281,9 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "cWy" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -6639,7 +6652,9 @@
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "dJm" = (
 /obj/machinery/light/small,
@@ -7108,7 +7123,9 @@
 	pixel_y = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "dXS" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo,
@@ -7466,7 +7483,9 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "egc" = (
 /obj/structure/table/reinforced,
@@ -8153,7 +8172,9 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "exN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9134,7 +9155,9 @@
 "fcz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "fcI" = (
 /obj/structure/table/wood/poker,
@@ -9819,7 +9842,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "frX" = (
 /obj/structure/wreck/trash/machinepiletwo,
@@ -11757,7 +11782,9 @@
 "gxY" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/white,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "gyf" = (
 /obj/structure/ore_box,
@@ -13174,14 +13201,6 @@
 /obj/effect/spawner/lootdrop/f13/cash_random_med,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"hoh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/underground/enclave_base)
 "hoq" = (
 /obj/structure/chair/bench,
 /obj/effect/decal/cleanable/dirt,
@@ -15991,10 +16010,8 @@
 /area/f13/den)
 "joD" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fo13colored/Red{
-	dir = 8
-	},
-/turf/open/floor/plasteel/elevatorshaft,
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/underground/enclave_base)
 "joN" = (
 /obj/structure/easel,
@@ -18364,8 +18381,7 @@
 "lbx" = (
 /obj/machinery/door/airlock/hatch,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/decoration/rag,
-/turf/open/floor/wood,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "lbB" = (
 /obj/structure/chair/bench,
@@ -19876,7 +19892,9 @@
 	req_one_access_txt = "134"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
 /area/f13/underground/enclave_base)
 "mhs" = (
 /obj/structure/chair/bench,
@@ -24498,8 +24516,11 @@
 /area/f13/bunker)
 "phn" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/underground/enclave_base)
 "phA" = (
 /obj/item/instrument/accordion,
@@ -26430,7 +26451,6 @@
 "qst" = (
 /obj/machinery/door/airlock/hatch,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/decoration/rag,
 /turf/open/floor/plasteel/dark,
 /area/f13/underground/enclave_base)
 "qsy" = (
@@ -29171,14 +29191,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/rnd)
-"skJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/underground/enclave_base)
 "skN" = (
 /obj/structure/reagent_dispensers/barrel/old,
 /turf/open/indestructible/ground/inside/mountain,
@@ -33533,6 +33545,14 @@
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"vEf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/open/floor/plasteel/f13/vault_floor/green,
+/area/f13/underground/enclave_base)
 "vEB" = (
 /obj/structure/table,
 /obj/item/reagent_containers/hypospray/medipen/medx,
@@ -70465,7 +70485,7 @@ vKj
 vKj
 vIC
 jJm
-hoh
+vEf
 gPM
 ycf
 koM
@@ -70969,7 +70989,7 @@ pgv
 xsH
 pgv
 vIC
-phn
+joD
 uiy
 vKj
 uiy
@@ -71473,8 +71493,8 @@ vPg
 vPg
 ycf
 aBg
-aEo
-aEo
+koM
+koM
 fcz
 gxY
 ycf
@@ -71729,11 +71749,11 @@ dXE
 vPg
 vPg
 ycf
-aEo
+koM
 cuJ
 dJh
 fcz
-aEo
+koM
 ycf
 hCy
 plc
@@ -71986,11 +72006,11 @@ dXE
 vPg
 vPg
 ycf
-aEo
+koM
 cEq
 dXH
 frU
-aEo
+koM
 ycf
 vIC
 vIC
@@ -72243,12 +72263,12 @@ vPg
 vPg
 vPg
 ycf
-aEo
+koM
 cLc
 cuJ
 frU
-aEo
-aEo
+koM
+koM
 mgX
 qwT
 oQt
@@ -72500,11 +72520,11 @@ vPg
 vPg
 vPg
 ycf
-aEo
-aEo
+koM
+koM
 efS
 frU
-aEo
+koM
 hvx
 dPd
 tOC
@@ -72757,11 +72777,11 @@ vPg
 vPg
 vPg
 ycf
-aEo
+koM
 cWf
 exD
 fcz
-aEo
+koM
 ycf
 vIC
 vIC
@@ -73015,13 +73035,13 @@ vPg
 vPg
 ycf
 aBg
-aEo
-aEo
+koM
+koM
 fcz
 gxY
 ycf
 wUJ
-joD
+aEo
 sZq
 vIC
 gIl
@@ -74310,7 +74330,7 @@ otr
 otr
 scX
 ycf
-skJ
+phn
 psv
 ycf
 kAp
