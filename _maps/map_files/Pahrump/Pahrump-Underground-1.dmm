@@ -12906,7 +12906,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch,
 /obj/structure/curtain,
-/turf/closed/indestructible/vaultdoor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/underground/enclave_base)
 "haS" = (
 /obj/effect/decal/cleanable/dirt,
