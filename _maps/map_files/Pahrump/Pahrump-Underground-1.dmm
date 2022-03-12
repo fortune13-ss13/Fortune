@@ -26620,7 +26620,6 @@
 "qyz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/chem_master/advanced,
-/obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/underground/enclave_base)
 "qyH" = (
@@ -27151,10 +27150,10 @@
 /area/f13/underground/enclave_base)
 "qQw" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/glass,
 /obj/machinery/light/fo13colored/Aqua{
 	dir = 1
 	},
+/obj/machinery/chem_dispenser/fullupgrade,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/underground/enclave_base)
 "qQz" = (
