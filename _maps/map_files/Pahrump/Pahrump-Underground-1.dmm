@@ -5121,7 +5121,8 @@
 /obj/structure/showcase/horrific_experiment{
 	icon_state = "pod_1"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "cVg" = (
 /obj/item/chair/wood,
@@ -5266,10 +5267,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/den)
 "daA" = (
-/obj/structure/simple_door/metal/barred{
-	req_one_access_txt = "120"
+/obj/machinery/door/airlock/security{
+	name = "Brig";
+	req_access_txt = "134"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/obj/effect/turf_decal/stripes/white/corner,
+/turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/underground/enclave_base)
 "daK" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -6108,7 +6111,8 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "dyv" = (
 /obj/structure/ladder/unbreakable{
@@ -8268,8 +8272,10 @@
 	},
 /area/f13/bunker)
 "eFn" = (
-/obj/structure/bed,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/obj/structure/simple_door/metal/barred{
+	req_one_access_txt = "120"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "eFq" = (
 /obj/structure/rack,
@@ -13635,7 +13641,8 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "hOO" = (
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/obj/structure/bed,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/underground/enclave_base)
 "hOP" = (
 /obj/effect/decal/remains/human,
@@ -14736,9 +14743,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "iEs" = (
 /obj/effect/decal/fakelattice{
@@ -14929,6 +14934,9 @@
 	pixel_y = 3
 	},
 /obj/item/stack/sheet/plasteel/twenty,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/underground/enclave_base)
+"iOd" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "iOt" = (
@@ -19143,9 +19151,7 @@
 /obj/structure/table{
 	layer = 2.9
 	},
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "lPf" = (
 /obj/structure/table/wood/settler,
@@ -23223,10 +23229,6 @@
 /obj/structure/grille,
 /turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/brotherhood/reactor)
-"oAo" = (
-/obj/machinery/door/airlock/hatch,
-/turf/open/floor/plasteel/dark,
-/area/f13/underground/enclave_base)
 "oBl" = (
 /obj/machinery/microwave,
 /obj/structure/table/wood/settler,
@@ -23492,7 +23494,7 @@
 	},
 /area/f13/tunnel)
 "oMn" = (
-/obj/effect/turf_decal/bot,
+/obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "oMs" = (
@@ -28398,7 +28400,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "sdV" = (
-/obj/effect/turf_decal/stripes/red/line,
+/obj/effect/turf_decal/stripes/white/line,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/underground/enclave_base)
 "seg" = (
@@ -29118,9 +29120,7 @@
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/clothing/under/rank/prisoner,
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "sKt" = (
 /obj/machinery/light/small,
@@ -30238,9 +30238,7 @@
 /area/f13/tunnel)
 "tGk" = (
 /obj/structure/closet,
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "tGq" = (
 /obj/machinery/light/small{
@@ -30580,11 +30578,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"tPg" = (
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
-/area/f13/underground/enclave_base)
 "tPl" = (
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/rnd)
@@ -30597,9 +30590,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "tQm" = (
 /obj/structure/window/reinforced/spawner,
@@ -30625,9 +30616,7 @@
 /obj/structure/table{
 	layer = 2.9
 	},
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "tRc" = (
 /obj/machinery/light{
@@ -34008,9 +33997,7 @@
 	pixel_x = 6;
 	pixel_y = -4
 	},
-/turf/open/floor/f13{
-	icon_state = "redmark"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/underground/enclave_base)
 "wxj" = (
 /obj/structure/fence/handrail{
@@ -71223,7 +71210,7 @@ ycf
 pRK
 xEd
 xEd
-hOO
+iOd
 ycf
 vPg
 vPg
@@ -73782,9 +73769,9 @@ wuj
 ycf
 uSO
 xEd
-eFn
+hOO
 vbU
-eFn
+hOO
 xEd
 uSO
 ycf
@@ -74035,14 +74022,14 @@ xEd
 nGx
 ycf
 saS
-saS
+daA
 ycf
 vbU
-daA
+eFn
 vbU
 ycf
 vbU
-daA
+eFn
 vbU
 ycf
 fwh
@@ -74293,14 +74280,14 @@ nQc
 ycf
 wuj
 sdV
-tPg
-tPg
-tPg
-tPg
-tPg
-tPg
-tPg
-tPg
+wuj
+wuj
+wuj
+wuj
+wuj
+wuj
+wuj
+wuj
 ycf
 xmR
 gux
@@ -74547,17 +74534,17 @@ ycf
 xEd
 xEd
 xEd
-oAo
+qst
 wuj
 sdV
-tPg
 wuj
 wuj
 wuj
 wuj
 wuj
 wuj
-tPg
+wuj
+wuj
 cZy
 hDQ
 rFg
@@ -74814,7 +74801,7 @@ wuj
 wuj
 wuj
 wuj
-tPg
+wuj
 ycf
 tzl
 hDQ
