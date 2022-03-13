@@ -888,7 +888,7 @@
 /turf/open/floor/circuit/f13_blue,
 /area/f13/brotherhood/dorms)
 "aAL" = (
-/obj/machinery/jukebox,
+/obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/underground/enclave_base)
 "aAP" = (
@@ -6062,8 +6062,10 @@
 	},
 /area/f13/caves)
 "dwM" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/obj/structure/simple_door/metal/barred{
+	req_one_access_txt = "120"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "dxi" = (
 /turf/open/floor/f13{
@@ -6436,7 +6438,7 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "dHh" = (
-/obj/machinery/vending/dinnerware,
+/obj/machinery/jukebox,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/underground/enclave_base)
 "dHv" = (
@@ -8272,10 +8274,8 @@
 	},
 /area/f13/bunker)
 "eFn" = (
-/obj/structure/simple_door/metal/barred{
-	req_one_access_txt = "120"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/obj/structure/bed,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/underground/enclave_base)
 "eFq" = (
 /obj/structure/rack,
@@ -13641,8 +13641,7 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "hOO" = (
-/obj/structure/bed,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "hOP" = (
 /obj/effect/decal/remains/human,
@@ -14843,7 +14842,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "iLe" = (
-/obj/machinery/deepfryer,
+/obj/machinery/processor,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/underground/enclave_base)
 "iLx" = (
@@ -14934,9 +14933,6 @@
 	pixel_y = 3
 	},
 /obj/item/stack/sheet/plasteel/twenty,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/underground/enclave_base)
-"iOd" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/underground/enclave_base)
 "iOt" = (
@@ -17137,7 +17133,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building)
 "kpt" = (
-/obj/machinery/processor,
+/obj/machinery/microwave/stove,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/underground/enclave_base)
 "kpC" = (
@@ -32808,7 +32804,7 @@
 	},
 /area/f13/clinic)
 "vEI" = (
-/obj/machinery/microwave/stove,
+/obj/machinery/vending/dinnerware,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/underground/enclave_base)
 "vFi" = (
@@ -70937,7 +70933,7 @@ ddL
 uQb
 qpg
 xGm
-dwM
+vIC
 vIC
 rHS
 vIC
@@ -71202,7 +71198,7 @@ ycf
 pRK
 xEd
 xEd
-iOd
+hOO
 ycf
 vPg
 vPg
@@ -73761,9 +73757,9 @@ wuj
 ycf
 uSO
 xEd
-hOO
+eFn
 vbU
-hOO
+eFn
 xEd
 uSO
 ycf
@@ -74017,11 +74013,11 @@ saS
 daA
 ycf
 vbU
-eFn
+dwM
 vbU
 ycf
 vbU
-eFn
+dwM
 vbU
 ycf
 fwh
