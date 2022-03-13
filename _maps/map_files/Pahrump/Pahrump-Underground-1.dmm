@@ -26079,7 +26079,6 @@
 /area/f13/brotherhood/offices1st)
 "qyz" = (
 /obj/machinery/chem_master/advanced,
-/obj/structure/table/glass,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/underground/enclave_base)
 "qyH" = (
@@ -26602,7 +26601,7 @@
 	},
 /area/f13/den)
 "qQw" = (
-/obj/structure/table/glass,
+/obj/machinery/chem_dispenser,
 /obj/machinery/light{
 	dir = 1
 	},
