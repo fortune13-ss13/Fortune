@@ -16003,8 +16003,6 @@
 	},
 /area/f13/den)
 "jxZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/ladder/unbreakable{
 	height = 1;
 	id = "surfacevaultelevatorladder";
@@ -17355,7 +17353,6 @@
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/archives)
 "kzG" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
 /obj/structure/railing{
 	dir = 8
@@ -19390,7 +19387,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/operations)
 "lZY" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/f13/underground/enclave_base)
@@ -29424,7 +29420,6 @@
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operating)
 "sZq" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/f13/underground/enclave_base)
 "sZW" = (
@@ -30099,7 +30094,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/offices1st)
 "tBx" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/public/glass{
 	name = "Diner"
 	},
@@ -34620,7 +34614,6 @@
 /obj/structure/railing{
 	layer = 4.1
 	},
-/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/elevatorshaft,
 /area/f13/underground/enclave_base)
 "wVy" = (
