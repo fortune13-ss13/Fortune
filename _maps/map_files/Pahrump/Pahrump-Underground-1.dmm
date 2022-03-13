@@ -4860,7 +4860,7 @@
 /obj/structure/fireaxecabinet{
 	pixel_x = 33
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "cPg" = (
 /obj/structure/sign/poster/prewar/poster93,
@@ -6652,7 +6652,7 @@
 /area/f13/tunnel)
 "dNT" = (
 /obj/structure/table,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "dOb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -7687,7 +7687,7 @@
 	pixel_x = 9;
 	pixel_y = 3
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "epg" = (
 /turf/open/floor/f13{
@@ -14207,7 +14207,7 @@
 /area/f13/brotherhood/chemistry)
 "ijb" = (
 /obj/structure/closet/crate/footlocker,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "iji" = (
 /obj/structure/wreck/trash/machinepile,
@@ -17766,7 +17766,7 @@
 /area/f13/brotherhood/operating)
 "kPj" = (
 /obj/machinery/vending/boozeomat,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "kPB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -19044,7 +19044,7 @@
 	pixel_y = -1
 	},
 /obj/machinery/light,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "lLQ" = (
 /obj/item/reagent_containers/food/snacks/meat/slab/molerat,
@@ -21259,7 +21259,7 @@
 	dir = 1
 	},
 /obj/item/bedsheet/black,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "njZ" = (
 /obj/structure/table/glass,
@@ -24575,7 +24575,7 @@
 	dir = 1;
 	pixel_y = -1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "pEF" = (
 /obj/item/instrument/saxophone,
@@ -28579,7 +28579,7 @@
 /area/f13/clinic)
 "siM" = (
 /obj/structure/table/wood,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "sjA" = (
 /obj/structure/closet/crate/large,
@@ -29076,9 +29076,6 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/followers)
-"sIJ" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/underground/enclave_base)
 "sJm" = (
 /obj/structure/table/wood/bar,
 /obj/item/clothing/head/welding/weldingfire,
@@ -29384,7 +29381,7 @@
 	dir = 8
 	},
 /obj/effect/landmark/start/f13/usscientist,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "sXn" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -29787,7 +29784,7 @@
 	pixel_x = 9;
 	pixel_y = 19
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "top" = (
 /obj/effect/landmark/start/f13/followersvolunteer,
@@ -30750,7 +30747,7 @@
 /area/f13/brotherhood/operations)
 "tUP" = (
 /obj/structure/dresser,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "tUT" = (
 /obj/effect/decal/cleanable/dirt,
@@ -30966,7 +30963,7 @@
 "ubj" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/drinkingglasses,
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "ubt" = (
 /obj/structure/kitchenspike,
@@ -35786,7 +35783,6 @@
 	},
 /area/f13/brotherhood/rnd)
 "xGm" = (
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/underground/enclave_base)
 "xGB" = (
@@ -36500,7 +36496,7 @@
 	},
 /area/f13/caves)
 "ykJ" = (
-/turf/open/floor/wood,
+/turf/open/floor/wood/f13,
 /area/f13/underground/enclave_base)
 "ylk" = (
 /obj/structure/closet/crate/freezer/blood,
@@ -70960,7 +70956,7 @@ uCO
 ddL
 uQb
 qpg
-sIJ
+xGm
 dwM
 vIC
 rHS
@@ -71217,8 +71213,8 @@ uGQ
 ddL
 wXQ
 ddL
-sIJ
-sIJ
+xGm
+xGm
 ykJ
 ykJ
 pEm
@@ -71474,7 +71470,7 @@ uOr
 ddL
 ljD
 ejA
-sIJ
+xGm
 xNi
 ubj
 ykJ
@@ -71727,11 +71723,11 @@ tig
 tig
 tig
 tBx
-sIJ
 xGm
-sIJ
-sIJ
-sIJ
+xGm
+xGm
+xGm
+xGm
 xNi
 siM
 ykJ
@@ -71988,7 +71984,7 @@ dHh
 xNi
 xNi
 xNi
-sIJ
+xGm
 xNi
 toi
 cOT
@@ -72245,7 +72241,7 @@ vIC
 xLc
 kNa
 jxO
-sIJ
+xGm
 aAL
 vIC
 vIC
