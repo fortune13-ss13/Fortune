@@ -3483,7 +3483,7 @@
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/bunker)
 "cbn" = (
-/obj/structure/chair/office/light{
+/obj/structure/chair/office/dark{
 	dir = 1
 	},
 /turf/open/floor/carpet/black,
@@ -31980,6 +31980,12 @@
 /obj/structure/wreck/trash/engine,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
+"uSO" = (
+/obj/structure/chair/f13chair2{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "uSQ" = (
 /obj/structure/simple_door/metal/ventilation,
 /obj/structure/cable{
@@ -73779,13 +73785,13 @@ ycf
 wuj
 wuj
 ycf
-xEd
+uSO
 xEd
 eFn
 vbU
 eFn
 xEd
-xEd
+uSO
 ycf
 ycf
 ycf
