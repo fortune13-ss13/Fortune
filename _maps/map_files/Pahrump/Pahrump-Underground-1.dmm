@@ -1568,12 +1568,6 @@
 /mob/living/simple_animal/hostile/handy/playable,
 /turf/open/water,
 /area/f13/tunnel)
-"aWY" = (
-/obj/structure/sign/poster/official/obey{
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/underground/enclave_base)
 "aXd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/down{
@@ -3349,12 +3343,6 @@
 	dir = 6
 	},
 /area/f13/brotherhood/mining)
-"bWW" = (
-/obj/structure/sign/poster/official/do_not_question{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/enclave_base)
 "bWY" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -15216,6 +15204,10 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/caves)
+"iVM" = (
+/obj/structure/target_stake,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "iWc" = (
 /mob/living/simple_animal/hostile/handy/playable,
 /turf/open/floor/f13/wood{
@@ -17529,12 +17521,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/rnd)
-"kFo" = (
-/obj/structure/sign/poster/official/build{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/underground/enclave_base)
 "kFx" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/f13{
@@ -24046,10 +24032,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"piA" = (
-/obj/structure/target_stake,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/underground/enclave_base)
 "piI" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -24400,6 +24382,12 @@
 /obj/structure/decoration/vent/rusty,
 /turf/closed/wall/r_wall/rust,
 /area/f13/tunnel)
+"pxW" = (
+/obj/structure/sign/poster/official/obey{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "pym" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc{
@@ -26252,6 +26240,12 @@
 /mob/living/simple_animal/hostile/poison/giant_spider/nurse,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
+"qEb" = (
+/obj/structure/sign/poster/official/build{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/enclave_base)
 "qEg" = (
 /obj/effect/spawner/lootdrop/f13/cash_random_high,
 /turf/open/indestructible/ground/inside/mountain,
@@ -26419,6 +26413,12 @@
 	icon_state = "neutraldirty"
 	},
 /area/f13/den)
+"qJH" = (
+/obj/structure/sign/poster/official/do_not_question{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/enclave_base)
 "qJP" = (
 /obj/item/trash/f13/yumyum,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -28993,6 +28993,12 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
+"sAZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "sBG" = (
 /obj/structure/chair,
 /turf/open/floor/f13{
@@ -30472,6 +30478,13 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"tKr" = (
+/obj/structure/target_stake,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "tKY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/simple_door/bunker/glass,
@@ -33606,6 +33619,12 @@
 	name = "lake water"
 	},
 /area/f13/caves)
+"whR" = (
+/obj/structure/sign/poster/official/safety_report{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "wif" = (
 /obj/structure/campfire/barrel,
 /obj/effect/decal/cleanable/dirt,
@@ -34336,12 +34355,6 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/caves)
-"wKm" = (
-/obj/structure/sign/poster/official/safety_report{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/underground/enclave_base)
 "wKF" = (
 /obj/structure/table,
 /obj/item/trash/plate,
@@ -68906,7 +68919,7 @@ ycf
 ycf
 ycf
 vIC
-kFo
+qEb
 tig
 mLV
 ycf
@@ -69934,7 +69947,7 @@ vIC
 vIC
 vIC
 vIC
-bWW
+qJH
 tig
 rHS
 wyb
@@ -72745,7 +72758,7 @@ vPg
 ycf
 xEd
 xEd
-xEd
+sAZ
 xEd
 xEd
 ycf
@@ -73529,13 +73542,13 @@ ycf
 wuj
 wuj
 ycf
-wKm
+whR
 xEd
 xEd
 vbU
 xEd
 xEd
-aWY
+pxW
 ycf
 vPg
 vPg
@@ -74286,9 +74299,9 @@ vPg
 vPg
 ycf
 xEd
-piA
-piA
-piA
+iVM
+tKr
+iVM
 xEd
 ycf
 iwr
