@@ -1568,6 +1568,12 @@
 /mob/living/simple_animal/hostile/handy/playable,
 /turf/open/water,
 /area/f13/tunnel)
+"aWY" = (
+/obj/structure/sign/poster/official/obey{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "aXd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/down{
@@ -3343,6 +3349,12 @@
 	dir = 6
 	},
 /area/f13/brotherhood/mining)
+"bWW" = (
+/obj/structure/sign/poster/official/do_not_question{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/enclave_base)
 "bWY" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -14184,7 +14196,10 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "ihM" = (
-/obj/structure/rack,
+/obj/structure/closet/crate,
+/obj/item/target,
+/obj/item/target,
+/obj/item/target,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/underground/enclave_base)
 "iiu" = (
@@ -17514,6 +17529,12 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/rnd)
+"kFo" = (
+/obj/structure/sign/poster/official/build{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/underground/enclave_base)
 "kFx" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/f13{
@@ -24025,6 +24046,10 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
+"piA" = (
+/obj/structure/target_stake,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "piI" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -34311,6 +34336,12 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/caves)
+"wKm" = (
+/obj/structure/sign/poster/official/safety_report{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/underground/enclave_base)
 "wKF" = (
 /obj/structure/table,
 /obj/item/trash/plate,
@@ -68875,7 +68906,7 @@ ycf
 ycf
 ycf
 vIC
-tig
+kFo
 tig
 mLV
 ycf
@@ -69903,7 +69934,7 @@ vIC
 vIC
 vIC
 vIC
-tig
+bWW
 tig
 rHS
 wyb
@@ -72454,7 +72485,7 @@ aoj
 aoj
 vPg
 vPg
-vPg
+ycf
 ycf
 ycf
 ycf
@@ -72711,13 +72742,13 @@ vPg
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+ycf
+xEd
+xEd
+xEd
+xEd
+xEd
+ycf
 ycf
 jxZ
 kzG
@@ -72968,12 +72999,12 @@ vPg
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+ycf
+ihM
+pOn
+pOn
+pOn
+xEd
 ycf
 ycf
 ycf
@@ -73225,12 +73256,12 @@ vPg
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+ycf
+xEd
+xEd
+xEd
+xEd
+xEd
 ycf
 hwD
 jyB
@@ -73482,14 +73513,14 @@ vPg
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
 ycf
-ihM
+xEd
+xEd
+xEd
+xEd
+xEd
+qst
+xEd
 xEd
 xEd
 xEd
@@ -73498,13 +73529,13 @@ ycf
 wuj
 wuj
 ycf
-xEd
+wKm
 xEd
 xEd
 vbU
 xEd
 xEd
-xEd
+aWY
 ycf
 vPg
 vPg
@@ -73739,12 +73770,12 @@ aoj
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+ycf
+xEd
+xEd
+xEd
+xEd
+xEd
 ycf
 ijv
 xEd
@@ -73996,12 +74027,12 @@ aoj
 eLE
 eLE
 eLE
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+ycf
+xEd
+xEd
+xEd
+xEd
+xEd
 ycf
 ikY
 xEd
@@ -74253,12 +74284,12 @@ eLE
 vPg
 vPg
 vPg
-vPg
-vPg
-vPg
-vPg
-vPg
-vPg
+ycf
+xEd
+piA
+piA
+piA
+xEd
 ycf
 iwr
 xEd
@@ -74510,12 +74541,12 @@ vPg
 vPg
 vPg
 tMD
-tMD
-tMD
-tMD
-vPg
-vPg
-vPg
+ycf
+ycf
+ycf
+ycf
+ycf
+ycf
 ycf
 ycf
 ycf
