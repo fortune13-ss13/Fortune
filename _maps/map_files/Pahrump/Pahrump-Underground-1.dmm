@@ -17967,7 +17967,6 @@
 /obj/machinery/door/airlock/vault{
 	req_one_access_txt = "134"
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/f13/underground/enclave_base)
 "kYT" = (
@@ -22980,9 +22979,7 @@
 /area/f13/underground/enclave_base)
 "oqd" = (
 /obj/machinery/door/airlock/hatch,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/underground/enclave_base)
 "oqJ" = (
 /obj/machinery/button/door{
@@ -23936,9 +23933,7 @@
 "pec" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/departments/chemistry,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
+/turf/closed/wall/r_wall,
 /area/f13/underground/enclave_base)
 "pez" = (
 /obj/machinery/light/small{
@@ -69927,8 +69922,8 @@ haO
 vLU
 mrp
 xsH
-vIC
-vIC
+ycf
+ycf
 vIC
 vIC
 vIC
