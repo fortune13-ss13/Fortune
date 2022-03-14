@@ -494,6 +494,28 @@
 	icon_state = "steelpot_bandolier"
 	item_state = "steelpot_bandolier"
 
+/obj/item/clothing/head/f13/ncr/standard
+	name = "NCR conscript helmet"
+	desc = "A standard issue NCR Infantry helmet, with a pair of goggles attached to it."
+	icon_state = "ncr_goggles_helmet"
+	item_state = "ncr_goggles_helmet"
+
+/obj/item/clothing/head/f13/ncr/standard/conscript
+	name = "NCR conscript helmet"
+	desc = "A standard issue NCR Infantry helmet, with a pair of goggles attached to it."
+	icon_state = "ncr_goggles_helmet"
+	item_state = "ncr_goggles_helmet"
+	armor = list("melee" = 20, "bullet" = 30, "laser" = 10, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
+	toggle_message = "You pull the goggles down under "
+	alt_toggle_message = "You push the goggles up onto the "
+	can_toggle = 1
+	flags_inv = HIDEEARS
+	actions_types = list(/datum/action/item_action/toggle)
+	toggle_cooldown = 0
+	flags_cover = HEADCOVERSEYES
+	visor_flags_cover = HEADCOVERSEYES
+	dog_fashion = null
+
 /obj/item/clothing/head/f13/ncr_flapcap
 	name = "NCR field cap"
 	desc = "A special issue canvas NCR field cap with cotton neckflap, for sun protection in arid climates."
