@@ -9654,10 +9654,6 @@
 /obj/structure/sign/warning,
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/reactor)
-"fsw" = (
-/obj/structure/sign/poster/prewar/poster66,
-/turf/closed/wall/r_wall,
-/area/f13/enclave)
 "fsN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/mineral/wasteland_vendor/pipboy,
@@ -13197,10 +13193,7 @@
 /turf/open/water,
 /area/f13/brotherhood/rnd)
 "hwD" = (
-/obj/machinery/suit_storage_unit/enclave{
-	helmet_type = /obj/item/clothing/head/helmet/f13/power_armor/advanced;
-	suit_type = /obj/item/clothing/suit/armor/f13/power_armor/advanced
-	},
+/obj/machinery/suit_storage_unit/enclave,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "hwF" = (
@@ -15679,6 +15672,12 @@
 /obj/effect/decal/cleanable/oil/streak,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
+"jnt" = (
+/obj/structure/chair/f13foldupchair{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/enclave)
 "jnB" = (
 /obj/structure/wreck/trash/three_barrels,
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -16438,6 +16437,13 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/clinic)
+"jNE" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/enclave)
 "jNN" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -17848,6 +17854,15 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/caves)
+"kRn" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "enclavebase";
+	name = "maintenance ladder"
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/enclave)
 "kRt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
@@ -19698,6 +19713,10 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
+"mmY" = (
+/obj/structure/chair/stool/retro/black,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/f13/enclave)
 "mnk" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/f13{
@@ -21566,6 +21585,14 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/caves)
+"ntY" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 6;
+	layer = 4.1
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/enclave)
 "nuA" = (
 /obj/structure/lattice/catwalk,
 /turf/open/indestructible/ground/inside/subway,
@@ -21822,10 +21849,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/offices1st)
-"nEp" = (
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
 "nEt" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -22105,6 +22128,10 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/rnd)
+"nMj" = (
+/obj/structure/lattice/catwalk,
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/enclave)
 "nMB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/fo13colored/Red{
@@ -23248,14 +23275,6 @@
 	icon_state = "tunnelchess"
 	},
 /area/f13/caves)
-"ozn" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 6;
-	layer = 4.1
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
 "ozs" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
@@ -23689,12 +23708,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/f13/brotherhood/offices1st)
-"oQK" = (
-/obj/structure/chair/f13foldupchair{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/enclave)
 "oQP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/shoes/f13/raidertreads,
@@ -27354,6 +27367,10 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"rqo" = (
+/obj/structure/sign/poster/prewar/poster66,
+/turf/closed/wall/r_wall,
+/area/f13/enclave)
 "rrh" = (
 /obj/machinery/button/crematorium,
 /turf/closed/wall/r_wall,
@@ -30461,6 +30478,13 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/clinic)
+"tJd" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/enclave)
 "tJo" = (
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/enclave)
@@ -32290,15 +32314,6 @@
 	icon_state = "reddirtyfull"
 	},
 /area/f13/clinic)
-"vdy" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "enclavebase";
-	name = "maintenance ladder"
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
 "vdE" = (
 /obj/structure/wreck/trash/machinepiletwo,
 /turf/open/floor/plating/tunnel,
@@ -32971,13 +32986,6 @@
 /area/f13/enclave)
 "vGb" = (
 /turf/open/floor/plasteel/f13/vault_floor/green,
-/area/f13/enclave)
-"vGP" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/enclave)
 "vHn" = (
 /obj/structure/handrail/g_central{
@@ -34351,13 +34359,6 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/clinic)
-"wGu" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/enclave)
 "wGD" = (
 /obj/structure/handrail/g_central{
 	dir = 4;
@@ -35676,10 +35677,6 @@
 "xyk" = (
 /turf/closed/wall/f13/wood,
 /area/f13/building)
-"xyo" = (
-/obj/structure/chair/stool/retro/black,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/enclave)
 "xyu" = (
 /obj/item/reagent_containers/glass/bucket{
 	desc = "It smells awful.";
@@ -66696,7 +66693,7 @@ vPg
 ycf
 ycf
 ycf
-fsw
+rqo
 ycf
 ycf
 ycf
@@ -66953,7 +66950,7 @@ vPg
 ycf
 wFF
 sZq
-oQK
+jnt
 fSW
 fSW
 iPU
@@ -67210,7 +67207,7 @@ vPg
 ycf
 mno
 sZq
-oQK
+jnt
 fSW
 fSW
 fSW
@@ -67724,7 +67721,7 @@ vPg
 ycf
 mno
 sZq
-oQK
+jnt
 fSW
 fSW
 fSW
@@ -67981,7 +67978,7 @@ vPg
 ycf
 wFF
 sZq
-oQK
+jnt
 fSW
 fSW
 iUQ
@@ -71595,7 +71592,7 @@ ddL
 ljD
 ejA
 xGm
-xyo
+mmY
 ubj
 ykJ
 lLG
@@ -71852,7 +71849,7 @@ xGm
 xGm
 xGm
 xGm
-xyo
+mmY
 siM
 ykJ
 eoU
@@ -72109,7 +72106,7 @@ xNi
 xNi
 xNi
 xGm
-xyo
+mmY
 toi
 cOT
 kPj
@@ -72353,8 +72350,8 @@ fcz
 fcz
 gxY
 ycf
-wGu
-wGu
+jNE
+jNE
 oNq
 sZq
 sZq
@@ -72610,9 +72607,9 @@ ycf
 ycf
 ycf
 ycf
-vdy
-nEp
-nEp
+kRn
+nMj
+nMj
 sZq
 sZq
 sZq
@@ -72867,9 +72864,9 @@ xEd
 xEd
 ycf
 ycf
-vGP
-vGP
-ozn
+tJd
+tJd
+ntY
 sZq
 qiu
 sZq
