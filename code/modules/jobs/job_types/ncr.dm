@@ -956,8 +956,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13trooper
 	title = "NCR Trooper"
 	flag = F13TROOPER
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 6
+	spawn_positions = 6
 	description = "You are the backbone of the NCR Army. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
 	supervisors = "Corporals and Above"
 	selection_color = "#fff5cc"
@@ -1014,8 +1014,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13conscript
 	title = "NCR Conscript"
 	flag = F13CONSCRIPT
-	total_positions = 6
-	spawn_positions = 6
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are the backbone of the NCR Army. Obey your the NCOs and officers, no matter if you are a conscripted raider, tribal, or citizen you are expected to follow military discipline lest you meet a bullet to the back of the head."
 	supervisors = "Corporals and Above"
 	selection_color = "#fff5cc"
