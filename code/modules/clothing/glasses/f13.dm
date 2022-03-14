@@ -50,7 +50,7 @@
 
 /obj/item/clothing/glasses/thermal/f13/enclave
 	name = "\improper pilot goggles"
-	desc = "Heat-sensitive goggles commonly worn by Enclave vertibird pilots."
+	desc = "Heat-sensitive goggles commonly worn by Enclave Personnel."
 	icon_state = "enclavegoggles"
 	item_state = "enclavegoggles"
 

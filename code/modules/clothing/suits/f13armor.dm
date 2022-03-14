@@ -417,8 +417,8 @@
 /obj/item/clothing/suit/armor/f13/power_armor/advanced
 	name = "advanced power armor"
 	desc = "An advanced suit of armor typically used by the Enclave.<br>It is composed of lightweight metal alloys, reinforced with ceramic castings at key stress points.<br>Additionally, like the T-51b power armor, it includes a recycling system that can convert human waste into drinkable water, and an air conditioning system for its user's comfort."
-	icon_state = "advpowerarmor1"
-	item_state = "advpowerarmor1"
+	icon_state = "advanced"
+	item_state = "advanced"
 	armor = list("melee" = 80, "bullet" = 80, "laser" = 85, "energy" = 35, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0, "wound" = 90)
 
 //Peacekeeper armor adjust as needed
@@ -437,12 +437,6 @@
 	item_state = "armor_enclave_peacekeeper"
 	armor = list("tier" = 6)
 
-/obj/item/clothing/suit/armor/f13/enclave/officercoat
-	name = "armored coat"
-	desc = "(VII) Premium prewar armor fitted into a coat for Enclave officers."
-	icon_state = "armor_enclave_officer"
-	item_state = "armor_enclave_officer"
-	armor = list("tier" = 7)
 
 //Generic Tribal - For Wayfarer specific, see f13factionhead.dm
 //Trying generic tribal armor stats for this one for now.
