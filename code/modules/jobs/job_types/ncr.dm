@@ -958,7 +958,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	flag = F13TROOPER
 	total_positions = 6
 	spawn_positions = 6
-	description = "You are the backbone of the NCR Army. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
+	description = "You are a professional soldier of the NCR Army. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
 	supervisors = "Corporals and Above"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_TROOPER
@@ -1016,7 +1016,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	flag = F13CONSCRIPT
 	total_positions = 0
 	spawn_positions = 0
-	description = "You are the backbone of the NCR Army. Obey your the NCOs and officers, no matter if you are a conscripted raider, tribal, or citizen you are expected to follow military discipline lest you meet a bullet to the back of the head."
+	description = "You are the recent bulk of the NCR Army. You have been recently conscripted, given little to no training and were issued a gun. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
 	supervisors = "Corporals and Above"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_TROOPER
