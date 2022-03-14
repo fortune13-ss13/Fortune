@@ -27,7 +27,7 @@
 	head = 			/obj/item/clothing/head/helmet/f13/combat/swat
 	mask =			/obj/item/clothing/mask/gas/enclave
 	ears = 			/obj/item/radio/headset/headset_enclave
-	glasses = 		/obj/item/clothing/glasses/thermal/f13/enclave
+	glasses = 		/obj/item/clothing/glasses/night/f13/enclave
 	uniform =		/obj/item/clothing/under/f13/enclave/peacekeeper
 	suit = 			/obj/item/clothing/suit/armor/bulletproof
 	belt = 			/obj/item/storage/belt/military/assault/enclave
@@ -67,7 +67,7 @@
 	jobtype = /datum/job/wasteland/enclavesgt
 	backpack = /obj/item/storage/backpack/satchel/enclave
 	ears = 			/obj/item/radio/headset/headset_enclave
-	glasses = 		/obj/item/clothing/glasses/thermal/f13/enclave
+	glasses = 		/obj/item/clothing/glasses/night/f13/enclave
 	uniform =		/obj/item/clothing/under/f13/enclave/peacekeeper
 	suit = 			/obj/item/clothing/suit/armor/f13/combat/mk2/dark
 	suit_store = 	/obj/item/gun/energy/laser/aer9
@@ -119,7 +119,7 @@
 	backpack = /obj/item/storage/backpack/satchel/enclave
 	head = 			/obj/item/clothing/head/helmet/f13/envirosuit
 	ears = 			/obj/item/radio/headset/headset_enclave
-	glasses = 		/obj/item/clothing/glasses/thermal/f13/enclave
+	glasses = 		/obj/item/clothing/glasses/night/f13/enclave
 	mask =			/obj/item/clothing/mask/breath/medical
 	gloves = 		/obj/item/clothing/gloves/color/latex/nitrile
 	uniform =		/obj/item/clothing/under/f13/enclave/science
@@ -176,7 +176,7 @@
 	backpack = /obj/item/storage/backpack/satchel/enclave
 	head = /obj/item/clothing/head/helmet/f13/enclave
 	ears = /obj/item/radio/headset/headset_enclave
-	glasses = /obj/item/clothing/glasses/thermal/f13/enclave
+	glasses = /obj/item/clothing/glasses/night/f13/enclave
 	mask = /obj/item/clothing/mask/gas/enclave
 	uniform = /obj/item/clothing/under/f13/enclave/officer
 	suit = 	/obj/item/clothing/suit/armor/f13/enclavetrenchcoat
