@@ -393,7 +393,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ncr_campaign
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
 	glasses	= /obj/item/clothing/glasses/sunglasses
-	uniform = /obj/item/clothing/under/f13/ncr/ncr_officer
+	uniform = /obj/item/clothing/under/f13/ncr/ncr_dress
 	neck = /obj/item/storage/belt/holster/legholster
 	backpack_contents = list(
 		/obj/item/storage/survivalkit_aid = 1,
