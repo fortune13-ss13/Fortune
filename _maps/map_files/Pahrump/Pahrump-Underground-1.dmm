@@ -30621,6 +30621,7 @@
 "tKr" = (
 /obj/structure/rack,
 /obj/item/stack/ore/blackpowder/fifty,
+/obj/item/stack/crafting/armor_plate/twenty,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "tKY" = (
