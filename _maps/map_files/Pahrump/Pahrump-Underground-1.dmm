@@ -456,12 +456,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/tunnel)
-"anQ" = (
-/obj/structure/sign/poster/official/science{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/enclave)
 "anW" = (
 /obj/machinery/button/door{
 	id = "salad";
@@ -4117,7 +4111,10 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "cwH" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/closet,
+/obj/item/storage/box/gloves,
+/obj/item/roller,
+/obj/item/storage/box/bodybags,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/enclave)
 "cwN" = (
@@ -4701,15 +4698,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/den)
-"cLj" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor{
-	dir = 1;
-	req_one_access_txt = "134"
-	},
-/obj/machinery/door/window,
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/f13/enclave)
 "cLp" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -10600,12 +10588,6 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/caves)
-"fUx" = (
-/obj/structure/sign/poster/official/build{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/enclave)
 "fUE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
@@ -14811,6 +14793,10 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/f13/enclave)
+"iLg" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "iLx" = (
 /obj/structure/table{
@@ -20189,6 +20175,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
+"mKO" = (
+/obj/structure/sign/poster/official/build{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/enclave)
 "mKT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -21235,10 +21227,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/chemistry)
-"nkJ" = (
-/obj/structure/closet/crate/bin,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/enclave)
 "nld" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -22479,10 +22467,7 @@
 	},
 /area/f13/bunker)
 "obK" = (
-/obj/structure/closet,
-/obj/item/storage/box/gloves,
-/obj/item/roller,
-/obj/item/storage/box/bodybags,
+/obj/structure/closet/crate/freezer/surplus_limbs,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/enclave)
 "obV" = (
@@ -26637,6 +26622,11 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"qUr" = (
+/obj/structure/chair/office/light,
+/obj/effect/landmark/start/f13/usscientist,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/f13/enclave)
 "qUs" = (
 /obj/structure/debris/v4,
 /turf/closed/wall/r_wall/rust,
@@ -31072,6 +31062,15 @@
 /obj/item/projectile/magic/animate,
 /turf/closed/wall/f13/wood,
 /area/f13/brotherhood/rnd)
+"ulY" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_one_access_txt = "134"
+	},
+/obj/machinery/door/window,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/f13/enclave)
 "umr" = (
 /obj/item/flag/bos,
 /turf/open/floor/circuit/red/anim{
@@ -31934,6 +31933,12 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/rnd)
+"uVm" = (
+/obj/structure/sign/poster/official/science{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/enclave)
 "uVp" = (
 /obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
 /turf/open/floor/f13{
@@ -33648,11 +33653,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/operations)
-"wma" = (
-/obj/structure/chair/office/light,
-/obj/effect/landmark/start/f13/usscientist,
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
-/area/f13/enclave)
 "wms" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/dirt,
@@ -68790,14 +68790,14 @@ ycf
 ycf
 ycf
 vIC
-fUx
+mKO
 sZq
 mLV
 ycf
 mvA
 ycf
 ycf
-nkJ
+iLg
 xEd
 paG
 iNw
@@ -69302,8 +69302,8 @@ pec
 xsH
 xsH
 wUJ
-wma
-cLj
+qUr
+ulY
 sZq
 rDJ
 ycf
@@ -69818,7 +69818,7 @@ vIC
 vIC
 vIC
 vIC
-anQ
+uVm
 sZq
 rHS
 wyb
@@ -70069,7 +70069,7 @@ xsH
 jek
 xsH
 vIC
-wFF
+qJH
 sZq
 sZq
 sZq
