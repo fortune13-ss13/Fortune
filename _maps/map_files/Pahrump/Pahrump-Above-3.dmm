@@ -1458,6 +1458,12 @@
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
+"wr" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/closed/wall/f13/tentwall,
+/area/f13/ncr)
 "ww" = (
 /obj/structure/dresser,
 /turf/open/floor/f13/wood,
@@ -1501,6 +1507,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"wN" = (
+/obj/structure/simple_door/tent,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop2"
+	},
+/area/f13/ncr)
 "wR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
@@ -3474,6 +3486,15 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood/surface)
+"Xs" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/closed/wall/f13/tentwall,
+/area/f13/ncr)
 "XF" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating";
@@ -13960,9 +13981,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Jd
+Jd
+Jd
 PL
 PL
 PL
@@ -14217,9 +14238,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Jd
+Jd
+Jd
 PL
 PL
 PL
@@ -14474,9 +14495,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Jd
+Jd
+Jd
 PL
 PL
 PL
@@ -14731,9 +14752,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Jd
+Jd
+Jd
 PL
 PL
 PL
@@ -14988,9 +15009,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Jd
+Jd
+Jd
 PL
 PL
 PL
@@ -15245,9 +15266,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Jd
+Jd
+Jd
 PL
 PL
 PL
@@ -15502,9 +15523,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+wr
+wN
+Xs
 PL
 PL
 PL
