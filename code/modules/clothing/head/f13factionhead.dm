@@ -438,8 +438,8 @@
 /obj/item/clothing/head/f13/ncr/steelpot_goggles
 	name = "NCR storm helmet"
 	desc = "A standard issue NCR steel helmet, issued with an additional pair of storm goggles for weather resistance."
-	icon_state = "steelpot_goggles"
-	item_state = "steelpot_goggles"
+	icon_state = "ncr_goggles_helmet"
+	item_state = "ncr_goggles_helmet"
 	alt_toggle_message = "You push the goggles down "
 	can_toggle = 1
 	flags_inv = HIDEEARS
@@ -473,8 +473,8 @@
 /obj/item/clothing/head/f13/ncr/steelpot_med
 	name = "NCR medic helmet"
 	desc = "(III) A standard issue NCR steel helmet with the addition of decalling signifying a medic."
-	icon_state = "steelpot_med"
-	item_state = "steelpot_med"
+	icon_state = "ncr_old_med"
+	item_state = "ncr_old_med"
 
 /obj/item/clothing/head/f13/ncr/steelpot_mp
 	name = "NCR military police helmet"
@@ -496,9 +496,9 @@
 
 /obj/item/clothing/head/f13/ncr/standard/conscript
 	name = "NCR conscript helmet"
-	desc = "A standard issue NCR Infantry helmet, with a pair of goggles attached to it."
-	icon_state = "ncr_goggles_helmet"
-	item_state = "ncr_goggles_helmet"
+	desc = "A standard issue NCR steel helmet. Looks like you can write on it and strap a few items on the helmet band."
+	icon_state = "ncr_old"
+	item_state = "ncr_old"
 	armor = list("melee" = 20, "bullet" = 30, "laser" = 10, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 	toggle_message = "You pull the goggles down under "
 	alt_toggle_message = "You push the goggles up onto the "

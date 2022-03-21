@@ -393,6 +393,14 @@
 	icon_state = "ncr_standard_mantle"
 	item_state = "ncr_standard_mantle"
 
+/obj/item/clothing/suit/armor/f13/ncrarmor/reserve
+	name = "reserve NCR patrol vest"
+	desc = "A standard issue NCR Infantry vest."
+	icon_state = "ncr_infantry_vest"
+	item_state = "ncr_infantry_vest"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	armor = list("melee" = 20, "bullet" = 30, "laser" = 10, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
+
 /obj/item/clothing/suit/armor/f13/ncrarmor/conscript
 	name = "NCR flak vest"
 	desc = "A standard issue NCR Infantry vest reinforced with a thin kelvar sheet."
