@@ -6,7 +6,7 @@
 	enforces = "Enclave rules: Stay in uniform. Act mature and respectful. Obey orders and always remember you are fighting for the only true legitimate power in this land of savages. Wearing gasmasks outside the compound is encouraged but not required."
 	objectivesList = list("Department of Defense advisory: Collect resources and produce more Patribots, attrition is depleting our reserves.","Department of Defense advisory: Establish checkpoints to show presence, they must not forget who is the legitimate goverment.", "Science Divison advisory: Capture human subjects for experiments, alive. We have some new neurotoxin grenades we wish to do final tests with before field deployment.")
 
-/* COMMENTED OUT FOR NOW
+ COMMENTED OUT FOR NOW
 
 /datum/outfit/job/enclave
 	id = null
@@ -134,7 +134,7 @@ PEACEKEEPERS
 /datum/outfit/job/enclave/peacekeeper/trooper
 	name = "Peacekeeper"
 	jobtype = /datum/job/enclave/peacekeeper/trooper
-	head = 			/obj/item/clothing/head/helmet/f13/helmet/enclave/peacekeeper
+	head = 			/obj/item/clothing/head/helmet/f13/enclave/peacekeeper
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/sig=1,
 		/obj/item/ammo_box/magazine/m9mm=1,
@@ -174,7 +174,7 @@ PEACEKEEPERS
 /datum/outfit/job/enclave/noncombat/science
 	name = "Science Officer"
 	jobtype = /datum/job/enclave/noncombat/science
-	head = 			/obj/item/clothing/head/helmet/f13/helmet/enclave/science
+	head = 			/obj/item/clothing/head/helmet/f13/enclave/science
 	uniform = 		/obj/item/clothing/under/f13/enclave/science
 	backpack_contents = list(
 		/obj/item/reagent_containers/spray/pepper=1)
@@ -203,7 +203,7 @@ PEACEKEEPERS
 /datum/outfit/job/enclave/noncombat/intel
 	name = "Intelligence Officer"
 	jobtype = /datum/job/enclave/noncombat/intel
-	head = 			/obj/item/clothing/head/helmet/f13/helmet/enclave/intel
+	head = 			/obj/item/clothing/head/helmet/f13/enclave/intel
 	mask =			/obj/item/clothing/mask/gas/enclave
 	uniform = 		/obj/item/clothing/under/f13/enclave/intel
 	suit_store =	/obj/item/gun/ballistic/revolver/needler
