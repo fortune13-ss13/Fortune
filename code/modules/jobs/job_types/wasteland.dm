@@ -56,8 +56,8 @@
 	title = "Enclave Specialist"
 	flag = F13USSPECIALIST
 	faction = FACTION_ENCLAVE
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	description = "You are an undercover operative for the remnants of the Enclave. You, unlike the normal privates, have gotten some specialist training and can be specialized in either engineering or medicine."
 	supervisors = "Enclave Department of the Army."
 	forbids = "You are not allowed to have friendly interactions with those outside of the Enclave."
