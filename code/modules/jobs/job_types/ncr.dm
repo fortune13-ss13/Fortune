@@ -1030,7 +1030,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	id = /obj/item/card/id/dogtag/ncrtrooper
 	accessory = /obj/item/clothing/accessory/ncr/TPR
 	head = /obj/item/clothing/head/f13/ncr
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/reinforced
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor
 	glasses	= null
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
@@ -1040,7 +1040,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "Rifleman"
 	suit_store = /obj/item/gun/ballistic/automatic/service
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle = 2,
+		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/storage/box/ration/menu_two = 1,
 		)
@@ -1049,7 +1049,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "Reservist"
 	suit_store = /obj/item/gun/ballistic/automatic/m1carbine/m1n
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
+		/obj/item/ammo_box/magazine/m10mm_adv/ext = 3,
 		/obj/item/shovel/trench = 1,
 		/obj/item/storage/box/ration/menu_eight = 1,
 		)
