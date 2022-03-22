@@ -1040,7 +1040,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "Rifleman"
 	suit_store = /obj/item/gun/ballistic/automatic/service
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
+		/obj/item/ammo_box/magazine/m556/rifle = 3,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/storage/box/ration/menu_two = 1,
 		)
