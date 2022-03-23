@@ -395,7 +395,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	glasses	= /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/f13/ncr/ncr_dress
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
-	neck = /obj/item/storage/belt/holster/legholster
+	neck = /obj/item/storage/belt/holster
 	backpack_contents = list(
 		/obj/item/storage/survivalkit_aid = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
