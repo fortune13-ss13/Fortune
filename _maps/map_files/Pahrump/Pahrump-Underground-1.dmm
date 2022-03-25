@@ -17950,8 +17950,6 @@
 /obj/item/storage/box/handcuffs,
 /obj/item/melee/classic_baton/telescopic,
 /obj/item/melee/classic_baton/telescopic,
-/obj/item/melee/classic_baton/telescopic,
-/obj/item/reagent_containers/spray/pepper,
 /obj/item/reagent_containers/spray/pepper,
 /obj/item/reagent_containers/spray/pepper,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
@@ -19222,6 +19220,8 @@
 	name = "one thousand dollars";
 	singular_name = "ten hundred dollar bill"
 	},
+/obj/item/melee/classic_baton/telescopic,
+/obj/item/reagent_containers/spray/pepper,
 /turf/open/floor/carpet/black,
 /area/f13/enclave)
 "lQz" = (
