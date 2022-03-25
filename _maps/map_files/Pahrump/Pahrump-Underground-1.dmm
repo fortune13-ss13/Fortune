@@ -17779,8 +17779,8 @@
 	},
 /area/f13/caves)
 "kRn" = (
-/obj/structure/closet/locker,
 /obj/effect/turf_decal/bot_white,
+/obj/structure/closet/locker,
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_x = 32;
 	pixel_y = -17
@@ -17945,15 +17945,15 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/enclave)
 "kXX" = (
-/obj/structure/closet/locker,
 /obj/effect/turf_decal/bot_white,
-/obj/item/melee/classic_baton/telescopic,
-/obj/item/melee/classic_baton/telescopic,
-/obj/item/melee/classic_baton/telescopic,
-/obj/item/reagent_containers/spray/pepper,
-/obj/item/reagent_containers/spray/pepper,
-/obj/item/reagent_containers/spray/pepper,
+/obj/structure/closet/locker,
 /obj/item/storage/box/handcuffs,
+/obj/item/melee/classic_baton/telescopic,
+/obj/item/melee/classic_baton/telescopic,
+/obj/item/melee/classic_baton/telescopic,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/reagent_containers/spray/pepper,
+/obj/item/reagent_containers/spray/pepper,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/enclave)
 "kYT" = (
@@ -25700,6 +25700,17 @@
 /obj/machinery/pdapainter,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
+"qpg" = (
+/obj/effect/turf_decal/bot_white,
+/obj/structure/closet/locker,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/restraints/legcuffs,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
+/area/f13/enclave)
 "qpl" = (
 /obj/machinery/newscaster,
 /turf/closed/wall/mineral/iron,
@@ -29122,14 +29133,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/tunnel)
-"sKh" = (
-/obj/structure/closet/locker,
-/obj/item/clothing/shoes/sneakers/orange,
-/obj/item/clothing/under/rank/prisoner,
-/obj/item/restraints/legcuffs,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
-/area/f13/enclave)
 "sKt" = (
 /obj/machinery/light/small,
 /turf/open/floor/f13{
@@ -30243,9 +30246,6 @@
 /obj/structure/table{
 	layer = 2.9
 	},
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/item/lock_construct,
 /obj/item/lock_construct,
 /obj/item/key,
@@ -30634,14 +30634,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/enclave)
 "tRc" = (
+/obj/effect/turf_decal/bot_white,
 /obj/structure/closet/locker,
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/item/clothing/shoes/sneakers/orange,
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/restraints/legcuffs,
-/obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/enclave)
 "tRl" = (
@@ -75057,12 +75054,12 @@ ycf
 ycf
 ycf
 ycf
-sKh
-sKh
+tRc
+qpg
 rFU
 tGk
 pOn
-sKh
+qpg
 tRc
 ycf
 xEd
