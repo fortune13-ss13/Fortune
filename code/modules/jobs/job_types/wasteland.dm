@@ -51,12 +51,12 @@
 
 
 /datum/job/wasteland/f13heavytooper
-	title = "Enclave Heavy Trooper"
+	title = "Enclave Armored Infantry"
 	flag = F13USGYSGT
 	faction = FACTION_ENCLAVE
 	total_positions = 1
 	spawn_positions = 1
-	description = "You are the Quartermaster and Logistics Specialist. Your role is an advisory one that sees that the bunker has everything it needs; soldiers, medicine and food. These roles are yours, along with commanding the Sergeants and helping direct their squads."
+	description = "You are the main force of the remnants of the Enclave in this area, become the fist that will destroy all your opponents, or die because of a homeless man with a power fist "
 	forbids = "You are not allowed to have overly-friendly interactions with those outside of the Enclave."
 	enforces = "You must maintain the secrecy of the bunker location."
 	supervisors = "Enclave Department of the Army."
@@ -68,9 +68,8 @@
 	access = list(ACCESS_ENCLAVE)
 	minimal_access = list(ACCESS_ENCLAVE)
 
-
 /datum/outfit/job/wasteland/f13heavytrooper
-	name = "Enclave Heavy Trooper"
+	name = "Enclave Armored Infantry"
 	jobtype = /datum/job/wasteland/f13heavytooper
 	backpack = 		/obj/item/storage/backpack/satchel/enclave
 	id = 			/obj/item/card/id/dogtag/enclave/trooper
@@ -87,7 +86,7 @@
 	suit_store = 	/obj/item/minigunpack
 
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle = 3,
+		/obj/item/stock_parts/cell/ammo/ecp = 3,
 		/obj/item/storage/survivalkit_aid = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		/obj/item/grenade/flashbang = 1,
