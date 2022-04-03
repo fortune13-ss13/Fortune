@@ -640,6 +640,9 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Recruit Legionnaire"
 	icon_state = "Legionary"
 
+/obj/effect/landmark/start/f13/slavemaster
+	name = "Legion Slavemaster"
+
 /obj/effect/landmark/start/f13/explorer
 	name = "Legion Explorer"
 	icon_state = "Legionary"
